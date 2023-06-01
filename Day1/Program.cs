@@ -151,7 +151,10 @@ class Program
             foreach (Product product in products)
             {
                 writer.WriteLine($"{product.Name}:{product.Quantity}");
+                
             }
         }
     }
+    
 }
+
